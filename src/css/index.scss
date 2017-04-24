@@ -1,0 +1,30 @@
+@import "header";
+@import "menu";
+@import "some";
+@import "space";
+@import "home";
+@import "playlist";
+@import "calendar";
+@import "about";
+@import "error";
+@import "play";
+
+
+@font-face {
+    font-family: withoutSun;
+    src: url(../fonts/withoutSun.otf);
+}
+@font-face {
+    font-family: HappyFox;
+    src: url(../fonts/HappyFox.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.border {
+    border: none;
+}

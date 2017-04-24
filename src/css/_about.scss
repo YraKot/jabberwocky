@@ -1,0 +1,24 @@
+.about {
+    height: 100vh;
+    width: 100%;
+    background: #000 url(../img/about.jpg) no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        margin-top: -300px; 
+        width: 800px;
+        height: 200px;
+        
+        font-family: withoutSun;
+        font-size: 2.5rem;
+        word-spacing: 1rem;
+        color: #000;
+
+        overflow: scroll;
+    }
+}

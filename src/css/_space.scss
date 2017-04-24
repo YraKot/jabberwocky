@@ -1,0 +1,231 @@
+
+.space {
+    height: 100vh;
+    width: 100%;
+    background: #000 url(../img/space.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    
+
+    .obj {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        margin-top: 100px;
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+        h2 {
+            color: #fff;
+            text-align: center;
+        }
+        p {
+            height: 150px;
+            width: 300px;
+            color: #fff;
+            overflow: scroll;
+        }
+    }      
+
+    .obj1 {
+        position: absolute;
+        top: 10%;
+        left: 3%;
+
+        img {
+            height: 160px;
+            width: 160px;
+        }
+    }
+
+    .obj2 {
+        position: absolute;
+        top: 13%;
+        left: 20%;
+
+        img {
+            height: 180px;
+            width: 180px;
+        }
+    }
+
+    .obj3 {
+        position: absolute;
+        top: 23%;
+        left: 10%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj4 {
+        position: absolute;
+        top: 68%;
+        left: 0%;
+        img {
+            height: 250px;
+            width: 250px;
+        }   
+    }
+
+    .obj5 {
+        position: absolute;
+        top: 35%;
+        left: 1%;
+
+        img {
+            height: 200px;
+            width: 200px;
+        }   
+    }
+
+    .obj6 {
+        position: absolute;
+        top: 11%;
+        left: 36%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj7 {
+        position: absolute;
+        top: 47%;
+        left: 23%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj8 {
+        position: absolute;
+        top: 57%;
+        left: 14%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj9 {
+        position: absolute;
+        top: 72%;
+        left: 22%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj10 {
+        position: absolute;
+        top: 10%;
+        left: 85%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj11 {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj12 {
+        position: absolute;
+        top: 30%;
+        left: 85%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj13 {
+        position: absolute;
+        top: 30%;
+        left: 60%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj14 {
+        position: absolute;
+        top: 40%;
+        left: 75%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj15 {
+        position: absolute;
+        top: 50%;
+        left: 65%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj16 {
+        position: absolute;
+        top: 50%;
+        left: 85%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj17 {
+        position: absolute;
+        top: 72%;
+        left: 70%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+    .obj18 {
+        position: absolute;
+        top: 80%;
+        left: 85%;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }   
+    }
+
+}

@@ -1,0 +1,55 @@
+/************* button and icon navigation **************/
+.nav-btn {
+    // width: 40px;
+    // height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    .nav-btn-icon {
+        width: 36px;
+        height: 5px;
+        border-radius: 36px;
+        background-color: #fff;
+        display: block;
+        position: relative;
+        transition: background-color 0.25s;
+
+        
+
+        &::after, &::before{
+            content: "";
+            display: block;
+            position: absolute;
+            height: 5px;
+            width: 36px;
+            border-radius: 36px;
+            background-color: #fff;
+            transition: top 0.25s, transform 0.35s;
+        }
+
+        &::after {
+            transform: translateY(10px);
+        }
+        &::before {
+            transform: translateY(-10px);
+        }
+    }  
+    &.open {
+        .nav-btn-icon{
+            background-color: transparent;   
+
+            &::after {
+            background-color: #fff;
+            transform: rotateZ(45deg);
+            }
+            &::before {
+            transform: rotateZ(-45deg);
+            background-color: #fff;
+            }
+        }  
+    }
+}
